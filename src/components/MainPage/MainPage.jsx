@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ContentLoader from 'react-content-loader';
-import Skeleton from '../skeleton/skeleton';
+import Skeleton from '../skeleton/Skeleton';
 import '../../styles/app.scss';
 import Categories from '../Categories';
 import Sort from '../Sort';
