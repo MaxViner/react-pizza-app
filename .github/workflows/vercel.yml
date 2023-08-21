@@ -31,4 +31,5 @@ jobs:
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: pizza
-          vercel-project-id: react-pizza-app
+          vercel-project-id: prj_M1clQEeY8vR7ycVTuZuHsgdJWQyc
+          vercel-org-id: react-pizza-app
