@@ -30,6 +30,6 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
-          vercel-token: pizza
+          vercel-token: YL7SrNFMUSFNs8t9hqEue0uf
           vercel-project-id: prj_M1clQEeY8vR7ycVTuZuHsgdJWQyc
           vercel-org-id: react-pizza-app
