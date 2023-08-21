@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import ContentLoader from 'react-content-loader';
-import '../../styles/app.scss';
-import {Skeleton} from '../skeleton/Skeleton.jsx'
-import Categories from '../Categories';
-import Sort from '../Sort';
-import PizzaBlock from '../PizzaBlock';
+import '../styles/app.scss';
+import {Skeleton} from './Skeleton.jsx'
+import Categories from './Categories';
+import Sort from './Sort';
+import PizzaBlock from './PizzaBlock';
 
 export const MainPage=()=> {
   const [pizzas, setPizzas] = useState([]);
