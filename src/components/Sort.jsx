@@ -45,7 +45,7 @@ function Sort() {
           <ul>
             {
               sortTypes.map((type, ind) => (
-                <li onClick={() => { setSort(ind); setIsOpen(false) }} key={ind} className={sort == ind ? 'active' : ''}>{type}</li>
+                <li onClick={() => { setSort(ind); setIsOpen(false) }} key={ind} className={sort === ind ? 'active' : ''}>{type}</li>
               ))
             }
           </ul>
